@@ -9,7 +9,7 @@ export default function MobileMenu({isOpen,handleClick}) {
 	}
 	return (
 		<motion.div 
-		className="Mobile Menu | min-w-[70vw] flex flex-col justify-space-between items-center fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-30 bg-primary"
+		className="Mobile Menu | min-w-[70vw] flex flex-col justify-space-between items-center fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-30 rounded-md bg-black backdrop-blur-2xl text-white bg-opacity-35"
 		initial={false}
 		animate={isOpen ? "open" : "closed"}
 		variants={variants}

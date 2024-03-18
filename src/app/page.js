@@ -34,7 +34,7 @@ export default function Home() {
 					Trabajamos incansablemente para brindarte un entorno limpio, seguro y libre de preocupaciones. Deja que <span className='text-primary'>NIPLAG</span> cuide de tu espacio para que puedas vivir sin molestias ni riesgos. ¡Tu bienestar es nuestra prioridad!
 					</p>
 
-					<p className='hidden lg:block text-center text-4xl font-bold '>
+					<p className='block text-center text-3xl lg:text-4xl font-bold '>
 					Nuestros servicios
 					</p>
 

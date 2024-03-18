@@ -1,9 +1,9 @@
 import React from 'react'
 
-export default function Suscripciones() {
+export default function Planes() {
 	return (
 		<div>
-			Suscripciones
+			Planes
 		</div>
 	)
 }

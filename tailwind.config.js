@@ -9,7 +9,10 @@ module.exports = {
     extend: {
       colors: {
 				primary: "#8E00C9",
-				secondary: "#00B7A4"
+				primaryLight: "#CE5CFF",
+				primaryDark: "#56007A",
+				secondary: "#00B7A4",
+				secondaryLight: "#C2FFF9",
       },
 			backgroundImage: {
 				gradient: "linear-gradient(0deg, rgba(0,183,164,0.9668242296918768) 0%, rgba(142,0,201,1) 100%);",

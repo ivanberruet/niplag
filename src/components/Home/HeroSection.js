@@ -41,7 +41,7 @@ export default function HeroSection() {
 			variants={variants}
 			// transition={{ duration: .1, type: "spring", stiffness: 50 }}
 			>
-				<h1 className="text-2xl font-bold text-center">{plan}</h1>
+				<h1 className="text-2xl font-bold text-center underline underline-offset-2">{plan}</h1>
 				<ul className="list-inside list-disc">
 					{description.map((desc) => (
 						<li key={desc}>{desc}</li>
@@ -72,10 +72,12 @@ export default function HeroSection() {
 	)
 
 	return (
-		<main className="flex flex-col h-full bg-gradient text-white">
-			<h1 className="text-xl font-bold uppercase text-center my-6">Conoce nuestros planes</h1>
-			<div className="pb-4">
-				<div className="w-full flex h-fit items-center justify-center px-4">
+		<main className="flex flex-col h-full bg-gradient text-white lg:gap-10">
+			<h1 className="text-xl font-bold uppercase text-center my-6 lg:text-3xl">Conoce nuestros planes</h1>
+			
+			<div className="Promotions | pb-4">
+
+				<div className="Mobile Promotion | w-full flex h-fit items-center justify-center px-4 lg:hidden">
 					<FontAwesomeIcon icon={faCaretLeft} size="2x"  onClick={handlePrev} />
 
 					<PromotionCard
@@ -87,13 +89,25 @@ export default function HeroSection() {
 
 					<FontAwesomeIcon icon={faCaretRight} size="2x" onClick={handleNext} />
 				</div>
+
+				<div className='Desktop Promotion | hidden lg:flex w-[80%] m-auto h-fit items-center justify-around'>
+					{promotions.map((promotion) => (
+						<PromotionCard
+						key={promotion.plan}
+						plan={promotion.plan}
+						description={promotion.description}
+						price={promotion.price}
+						/>
+					))}
+				</div>
+
 			</div>
 
-			<Link className="Button | text-center text-2xl bg-primary px-4 py-2 my-6 w-fit self-center rounded-md" href="/contacto">
+			<Link className="Button | text-center text-2xl bg-primary px-4 py-2 my-6 w-fit self-center rounded-md lg:px-8 lg:py-4 hover:bg-primaryDark" href="/contacto">
 				Solicitar presupuesto
 			</Link>
 
-			<h2 className='text-sm italic px-4 pb-2'>(*) Precios sólo válidos para Consorcios. Consultar precios para otros establecimientos.</h2>
+			<h2 className='text-sm italic px-4 pb-2'>Precios sólo válidos para Consorcios. Consultar precios para otros establecimientos.</h2>
     </main>
 	)
 }

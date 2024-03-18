@@ -18,7 +18,7 @@ export default function MobileMenu({isOpen,handleClick}) {
 			<nav className="flex flex-col items-center justify-center text-lg">
 				<MobileLink href="/" title="Inicio" toggle={handleClick} className='mt-12'/>
 				<MobileLink href="/fumigaciones" title="Fumigaciones" toggle={handleClick}/>
-				<MobileLink href="/suscripciones" title="Suscripciones" toggle={handleClick}/>
+				<MobileLink href="/planes" title="Planes" toggle={handleClick}/>
 				<MobileLink href="/contacto" title="Contacto" toggle={handleClick}/>
 				<MobileLink href="/terminos" title="Términos y condiciones" toggle={handleClick} className='mb-12'/>
 			</nav>

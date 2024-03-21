@@ -16,7 +16,10 @@ module.exports = {
       },
 			backgroundImage: {
 				gradient: "linear-gradient(0deg, rgba(0,183,164,0.9668242296918768) 0%, rgba(142,0,201,1) 100%);",
-			}
+			},
+			listStyleType: {
+				square: 'square',
+			},
     },
   },
   plugins: [],

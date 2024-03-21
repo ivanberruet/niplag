@@ -1,7 +1,18 @@
+Pendientes:
+
+Locaciones:
+- Hospitales y Geriátricos
+- Instutciones Educativas
+- Instutciones Deportivas
+- Residencias familiares 
+- Lugares de encuentro
+- Consorcios
+- Embajadas
+- Gimnasios
+- Empresas 
+
 Agregar Embajadas
 Separar Instutciones -> Educativas y Deportivas
-
-Eliminar Tratamientos especiales
 
 Armar lista de plagas comunes
 - Cucarachas
@@ -13,26 +24,23 @@ Armar lista de plagas comunes
 - Alacranes
 - Hormigas
 
-Realizamos servicios de fumigaciones en Ciudad Autónoma de Buenos Aires.
+Realizamos servicios de fumigaciones en Ciudad Autónoma de Buenos Aires. (reformular con ChatGPT)
 Entregamos Certificados propios.
 
 Los certificados tienen una validez de 30 días. En los mismos se detalla la fecha de realización del servicio, los productos aplicados y el o los Técnicos intervinientes. También informa quien es el Director Técnico (DT) que lo avalo.
 
 El certificado es una constancia que tiene el cliente (comercio, empresa, oficina, industria, laboratorio, etc) de que el trabajo fue realizado. En el caso de las fumigaciones en la Capital Federal, el mismo también es un aval de que el trabajo fue realizado por una empresa de Control de Plagas correctamente habilitada. 
 
-Realizamos servicios de fumigaciones en Capital Federal y Gran Buenos Aires (reformular con ChatGPT)
 
-Botón de Solicitar Presupuesto dirigido al formulario de contacto.
 
-Agregar 10 años de experiencia.
-
-No va a haber Limpeza de Tanques
-
-Reemplazar por una sección de Planes y Suscripción
+Listo:
+- Reemplazar por una sección de Planes y Suscripción
 (*) Precios sólo válidos para Consorcios. Consultar precios para otros establecimientos.
-
-Agregar sección de Términos y Condiciones
-
+- Botón de Solicitar Presupuesto dirigido al formulario de contacto.
+- Agregar sección de Términos y Condiciones
+- Agregar 10 años de experiencia.
+- No va a haber Limpeza de Tanques
+- Eliminar Tratamientos especiales
 
 
 

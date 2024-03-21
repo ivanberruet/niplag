@@ -17,7 +17,7 @@ export default function Footer() {
 			</ul>
 			<div className='flex flex-col gap-1'>
 				<p>Castelar, Zona Oeste, Buenos Aires</p>
-				<p>Teléfono: <Link href={'https://wa.link/qx1ozg'} className=' underline-offset-2 text-secondary'>{phone}</Link></p>
+				<p>Teléfono: <Link href={'https://wa.link/qx1ozg'} className=' underline-offset-2 text-secondary font-bold'>{phone}</Link></p>
 				<p>Email: <Link href={'mailto:niplag@gmail.com?Subject=Consulta'} className=' underline-offset-2 font-bold'>{mail}</Link></p>
 				<p>© {new Date().getFullYear()} NIPLAG Todos los derechos reservados</p>
 			</div>

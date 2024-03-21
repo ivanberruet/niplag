@@ -1,6 +1,6 @@
 import React from 'react'
-import { faCaretLeft, faCaretRight } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faCaretLeft, faCaretRight } from '@fortawesome/free-solid-svg-icons'
 import { motion, AnimatePresence } from "framer-motion";
 import { useState } from "react";
 import Link from 'next/link';
@@ -39,7 +39,6 @@ export default function HeroSection() {
 			initial='enter'
 			animate='open'
 			variants={variants}
-			// transition={{ duration: .1, type: "spring", stiffness: 50 }}
 			>
 				<h1 className="text-2xl font-bold text-center underline underline-offset-2">{plan}</h1>
 				<ul className="list-inside list-disc">
@@ -107,7 +106,7 @@ export default function HeroSection() {
 				Solicitar presupuesto
 			</Link>
 
-			<h2 className='text-sm italic px-4 pb-2'>Precios sólo válidos para Consorcios. Consultar precios para otros establecimientos.</h2>
+			<h2 className='text-sm italic px-4 pb-2'>Precios sólo válidos para Consorcios. Consultar para otros establecimientos.</h2>
     </main>
 	)
 }
